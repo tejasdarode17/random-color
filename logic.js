@@ -12,7 +12,7 @@ startButton.addEventListener('click',(e)=>{
                 const blue = Math.floor(Math.random() * 256);
                 const rgb = `rgb(${red}, ${green}, ${blue})`;
                 document.body.style.backgroundColor = rgb;
-            }, 10);
+            }, 100);
 })
 
 stopButton.addEventListener('click',(e)=>{
